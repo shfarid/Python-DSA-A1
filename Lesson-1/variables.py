@@ -31,8 +31,34 @@ x = 'Bob'     #then as str
 # 1. Must start with a letter or underscore:
 name = 'John'
 _names = ['John', 'Bob']
+
 # 2. Cannot start with a number
-2_names = ['John', 'Bob']   # 
+2_names = ['John', 'Bob']   #
+
+# 3. Can only contains alphanumerical characters and underscore
+'''
+- a-Z
+- 0-9
+- _
+'''
+# my_var    # ok
+# my var or my-var  # not ok
+
+
+# Multiword variable names
+# camelCaseFont
+# PascalCase
+# snake_case
+
+
+# Many Values to Multiple Variables
+# Python allows us to assign values to multiple variables in one line:
+x, y, z = 'Banana', 'Apple', 'Ananas'
+print(x, y, z)
+
+# And you can assign the same value to multiple variables in one line:
+x = y = z = 'Banana'
+
 
 
 
